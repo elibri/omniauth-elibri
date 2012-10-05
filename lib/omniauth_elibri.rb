@@ -11,6 +11,8 @@ module OmniAuth
       # initializing your consumer from the OAuth gem.
       # ważne, że tutaj MUSI być ssl
       option :client_options, { :site => "https://elibri.com.pl/oauth" }
+      
+      option :provider_ignores_state, true
 
       # These are called after authentication has succeeded. If
       # possible, you should try to set the UID without making

@@ -26,7 +26,6 @@ module OmniAuth
           :full_name => raw_info['full_name'],
           :email => raw_info['email'],
           :super_admin => raw_info['super_admin'],
-          :books => raw_info['books']
         }
       end
 
